@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "bitrix": {
+      "command": "uv",
+      "args": ["run", "--directory", "/absolute/path/to/bitrix24-mcp", "--locked", "--env-file", "/private/bitrix-mcp.env", "bitrix-mcp"]
+    }
+  }
+}
